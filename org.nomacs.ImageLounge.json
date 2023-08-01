@@ -10,7 +10,7 @@
         "--socket=wayland",
         "--socket=pulseaudio",
         "--filesystem=home",
-        "--filesystem=/media"
+        "--filesystem=/run/media"
     ],
     "command": "nomacs",
     "cleanup": [
