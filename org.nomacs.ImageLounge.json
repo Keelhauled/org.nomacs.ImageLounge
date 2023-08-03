@@ -1,7 +1,7 @@
 {
     "app-id": "org.nomacs.ImageLounge",
     "runtime": "org.kde.Platform",
-    "runtime-version": "5.15-21.08",
+    "runtime-version": "5.15-22.08",
     "sdk": "org.kde.Sdk",
     "finish-args": [
         "--device=dri",
@@ -30,8 +30,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/Exiv2/exiv2/releases/download/v0.27.5/exiv2-0.27.5-Source.tar.gz",
-                    "sha256": "35a58618ab236a901ca4928b0ad8b31007ebdc0386d904409d825024e45ea6e2"
+                    "url": "https://github.com/Exiv2/exiv2/releases/download/v0.27.7/exiv2-0.27.7-Source.tar.gz",
+                    "sha256": "70629dc27e3d4dd5c3fa91afbea93166d338b1de284e6a4c44bbf9dcfe7bbc6d"
                 }
             ]
         },
@@ -42,15 +42,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/opencv/opencv/archive/4.1.0.tar.gz",
-                    "sha256": "8f6e4ab393d81d72caae6e78bd0fd6956117ec9f006fba55fcdb88caf62989b7"
-                },
-                {
-                    "type": "patch",
-                    "path": "patches/opencv-16369.patch",
-                    "only-arches": [
-                        "aarch64"
-                    ]
+                    "url": "https://github.com/opencv/opencv/archive/4.8.0.tar.gz",
+                    "sha512": "48738c3e7460a361274357aef1dd427082ccd59f749d6317d92a414b3741ce6116ea15ed4fedd2d47a25e456c705f3ba114357558646097bfc0e6dba9b3b865c"
                 }
             ]
         },
@@ -60,8 +53,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://www.libraw.org/data/LibRaw-0.19.5.tar.gz",
-                    "sha512": "4560045f75e6d2ab0d1d8686075f3a0e26a5d7ce693b48508110a2c31d19055d58983c24852da0abb64fa90db5e20f24b87aa7537ed04d958c38c8b265a7e826"
+                    "url": "https://www.libraw.org/data/LibRaw-0.21.1.tar.gz",
+                    "sha512": "8d11df0be2af5fd8a8251f150ccd59103319606f52effff541ee43e97ceb64f1a00a02bba7b730aedd0c1c705c1e465793c8a2a52769712c1102af7f5534dd5d"
                 }
             ]
         },
@@ -72,8 +65,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/stachenov/quazip/archive/v0.8.1.tar.gz",
-                    "sha512": "d65dab16c2cbc4d8bb23dae5b2fdff5ef787aaff2653b8e75c3fc8ba1701f5568a52bdde39009f83c5069a9fe3331cd1a49cf965822c4180e88bbc341faa2bfb"
+                    "url": "https://github.com/stachenov/quazip/archive/v1.4.tar.gz",
+                    "sha256": "79633fd3a18e2d11a7d5c40c4c79c1786ba0c74b59ad752e8429746fe1781dd6"
                 }
             ]
         },
