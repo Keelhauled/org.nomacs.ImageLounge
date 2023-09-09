@@ -22,6 +22,17 @@
     ],
     "modules": [
         {
+            "name": "inih",
+            "buildsystem": "meson",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://github.com/benhoyt/inih/archive/r57.tar.gz",
+                    "sha512": "9f758df876df54ed7e228fd82044f184eefbe47e806cd1e6d62e1b0ea28e2c08e67fa743042d73b4baef0b882480e6afe2e72878b175822eb2bdbb6d89c0e411"
+                }
+            ]
+        },
+        {
             "name": "exiv2",
             "buildsystem": "cmake-ninja",
             "config-opts": [
@@ -30,8 +41,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/Exiv2/exiv2/releases/download/v0.27.7/exiv2-0.27.7-Source.tar.gz",
-                    "sha256": "70629dc27e3d4dd5c3fa91afbea93166d338b1de284e6a4c44bbf9dcfe7bbc6d"
+                    "url": "https://github.com/Exiv2/exiv2/releases/download/v0.28.0/exiv2-0.28.0-Source.tar.gz",
+                    "sha512": "5c523ee8c2156417df978048e8e5c5009f77b05eb546ca7063c00dd4f468aa89b1aa60fe4411a638bcf75adc72042bb2ecb3c023b5367f6b756f486c00776dfb"
                 }
             ]
         },
@@ -66,7 +77,7 @@
                 {
                     "type": "archive",
                     "url": "https://github.com/stachenov/quazip/archive/v1.4.tar.gz",
-                    "sha256": "79633fd3a18e2d11a7d5c40c4c79c1786ba0c74b59ad752e8429746fe1781dd6"
+                    "sha512": "38ce3aa77df1fd92229454e56b7290c066d1e319afa36a9f8ec8477004ae94df682e8f454f13cdaf586a1d0b0e033fe698081033a19536ecd53dd1e4b0204af9"
                 }
             ]
         },
@@ -79,9 +90,9 @@
             "subdir": "ImageLounge",
             "sources": [
                 {
-                    "type": "archive",
-                    "url": "https://github.com/nomacs/nomacs/archive/3.16.224.tar.gz",
-                    "sha512": "7ca8e713eedd71bc3dd3804a9a09ece15badb74949b155ea4da72a0ea129be173c8d0951604a6139d4490525cd420da8635773c11f0d133f666a48dcd9064257"
+                    "type": "git",
+                    "url": "https://github.com/nomacs/nomacs",
+                    "commit": "b7c8ba6521a4a27382dc60f2c983079acba1f28b"
                 },
                 {
                     "type": "archive",
